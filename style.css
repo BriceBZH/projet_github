@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #143a7b;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 20%;
+}
+
+article {
+    background-image: linear-gradient(#9c3, #fc3, #f63);
+    padding: 2em;
+    text-align: center;
+    width: 80%;
+    margin-top: 2em;
+    border-radius: 1em;
+}
+
+.pseudo {
+    font-weight: bold;
+}
+
+div {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 50%;
+    padding: 0.5em;
+}
+
+section {
+    text-align: left;
+}
+
+.articleRepos {
+    display: none;
+}
+
+.buttonRec {
+    border-radius: 1em;
+    color: white;
+    background-color: #3b70fc;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-shadow: none;
+    border:0 none;
+}
+.error {
+    color: red;
+    font-size: 3em;
+    text-align:center;
+}
+
+.inputRec {
+    border-radius: 0.5em;
+}
+
+.aGit {
+    text-decoration: none;
+    border-radius: 1em;
+    color: white;
+    background-color: #3b70fc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.visible {
+    display: block;
+}

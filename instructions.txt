@@ -1,0 +1,15 @@
+En utilisant l'api de github suivante : 'https://api.github.com/users/USER_NAME'
+ou USER_NAME est un nom d'utilisateur github.
+Envoyer une requête avec un formulaire pour récupérer les informations
+d'un utilisateur github et les afficher sur une page.
+
+
+Afficher le nom d'utilisateur.
+Afficher le nombre de repos public.
+Afficher l'avatar.
+Afficher la date de création du compte et la différence en jour depuis aujourd'hui.
+
+Gérer les erreurs (USER_NAME non trouvé, requête qui échoue)
+et afficher un message à l'utilisateur le cas échéant.
+
+On utilisera ici que le DOM pour lire / écrire (pas de alert, ni prompt).

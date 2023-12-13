@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/app.css" />
+    <title>Github API</title>
+</head>
+
+<body>
+    <header>
+        <i class="fa-brands fa-github" style="color: #143a7b;"></i>
+        <h1>Github Users API</h1>
+    </header>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="form">
+                <form action="GET">
+                    <input type="text" name="username" placeholder="Rechercher des utilisateurs Github" />
+                    <div class="btn"><button type="submit">Rechercher</button></div>
+                </form>
+            </div>
+        </div>
+        <div class="result container"></div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/16d67f61c2.js" crossorigin="anonymous"></script>
+</body>
+</html>
